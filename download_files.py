@@ -18,7 +18,7 @@ if __name__ == '__main__':
     print(sys.argv)
 
     if (len(sys.argv) != 3):
-        print("usage: {} <file id> <file_format>".format(
+        print("usage: {} <file id> <file format>".format(
             os.path.basename(sys.argv[0])))
         sys.exit(1)
 
